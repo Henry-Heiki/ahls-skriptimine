@@ -1,0 +1,8 @@
+# Skript teeb kasutaja ilma paroolita
+
+echo "Trüki soovitud kasutajanimi: $kasutajanimi "
+read kasutajanimi
+useradd $kasutajanimi
+echo "Kasutaja on edukalt loodud!"
+
+# skripti lõpp
